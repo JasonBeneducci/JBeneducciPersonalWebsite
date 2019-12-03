@@ -41,6 +41,12 @@
 
 		> :first-child {
 			margin-top: 0;
+		}
+
+			@media screen and (max-width: 600px) {
+    			:first-child {
+					height: 6.5rem;
+    			}
 	
 			&:before {
 				display: none;
@@ -196,12 +202,6 @@
 				width: 3rem;
 				height: 3rem;
 				line-height: 4.75rem;
-
-				.icon {
-					&:before {
-						font-size: 1.75rem;
-					}
-				}
 			}
 
 			.content {

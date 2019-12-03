@@ -6,9 +6,9 @@ import '../assets/css/custom.css'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
-            <img src={JasonBeneducci} alt=""></img>
-        </div>
+        {/* <div className="logo"> */}
+            <img className="logo"src={JasonBeneducci} alt=""></img>
+        {/* </div> */}
         <div className="content">
             <div className="inner">
                 <h1>Jason Beneducci</h1>

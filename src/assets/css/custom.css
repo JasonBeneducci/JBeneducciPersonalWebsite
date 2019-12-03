@@ -2,10 +2,26 @@
     text-align: center;
     color: yellow;
     font-size: 3rem;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.paragraph-title {
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .paragraph {
+    margin-left: 5%;
+}
+
+.centered-text {
     text-align: center;
+}
+
+.listed-route {
+    width: 24.95%;
 }
 
 .personal-slogan {
@@ -20,13 +36,12 @@
     flex-wrap: nowrap;
     margin-bottom: 3%;
     justify-content: space-evenly;
-    /* background-color: yellow; */
 }
 
 .work-logo {
     height: 7rem;
     width: auto;
-    margin: 2%;
+    margin: 3%;
 }
 
 .work-logo:hover {

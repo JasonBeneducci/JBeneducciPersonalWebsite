@@ -6,6 +6,16 @@
     border-radius: 10px;
 }
 
+.route-title:hover {
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+}
+
+
 .paragraph-title {
     color: yellow;
     text-align: center;

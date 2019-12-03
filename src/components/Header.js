@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import JasonBeneducci from './images/JasonBeneducci.jpg'
+import JasonBeneducci from '../components/JasonBeneducci.jpg'
 import '../assets/css/custom.css'
 
 

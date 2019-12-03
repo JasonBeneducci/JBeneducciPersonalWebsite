@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Bali from '../images/Bali.jpg'
-import cornell from '../images/cornell.png'
-import prosight from '../images/prosight.png'
-import giants from '../images/giants.png'
+import Bali from './Bali.jpg'
+import cornell from './cornell.png'
+import prosight from './prosight.png'
+import giants from './giants.png'
 import '../assets/css/custom.css'
 
 class Main extends React.Component {

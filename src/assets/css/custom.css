@@ -20,8 +20,11 @@
     text-align: center;
 }
 
-.listed-route {
-    width: 24.95%;
+.route-button {
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+    font-weight: bolder;
 }
 
 .personal-slogan {

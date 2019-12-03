@@ -7,7 +7,7 @@ import '../assets/css/custom.css'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <img src={JasonBeneducci}></img>
+            <img src={JasonBeneducci} alt=""></img>
         </div>
         <div className="content">
             <div className="inner">
@@ -17,10 +17,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li className="listed-route"><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li className="listed-route"><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li className="listed-route"><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Projects</a></li>
-                <li className="listed-route"><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('intro')}}>Intro</button></li>
+                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('work')}}>Work</button></li>
+                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('about')}}>Projects</button></li>
+                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
             </ul>
         </nav>
     </header>

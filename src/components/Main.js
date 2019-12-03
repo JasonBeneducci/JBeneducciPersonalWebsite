@@ -80,7 +80,7 @@ class Main extends React.Component {
             <img src={nz} alt="" />
           </span> */}
           <div className="paragraph-title">PayDirt Picks
-            <a href="https://github.com/JasonBeneducci/PaydirtPicks" className="icon fa-github"></a>
+            <a href="https://github.com/JasonBeneducci/PaydirtPicks" className="icon fa-github"> </a>
           </div>
           <div className="centered-text">
             <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a>
@@ -98,7 +98,7 @@ class Main extends React.Component {
           </ul>
 
           <div className="paragraph-title">Hangman Game
-            <a href="https://github.com/JasonBeneducci/Hangman-game" className="icon fa-github"></a>
+            <a href="https://github.com/JasonBeneducci/Hangman-game" className="icon fa-github"> </a>
           </div>
           <div className="centered-text">
             {/* <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a> */}
@@ -115,7 +115,7 @@ class Main extends React.Component {
           </ul>
 
           <div className="paragraph-title">Refrigernation
-            <a href="https://github.com/JasonBeneducci/Refrigernation" className="icon fa-github"></a>
+            <a href="https://github.com/JasonBeneducci/Refrigernation" className="icon fa-github"> </a>
           </div>
           <div className="centered-text">
             {/* <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a> */}

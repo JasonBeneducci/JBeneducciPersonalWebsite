@@ -1,0 +1,35 @@
+.route-title {
+    text-align: center;
+    color: yellow;
+    font-size: 3rem;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.personal-slogan {
+    color: yellow;
+    font-size:30rem;
+    font-weight: bolder;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+}
+
+.work-logo {
+    height: 7rem;
+    width: auto;
+    margin: 2%;
+}
+
+.work-logo:hover {
+    opacity: 0.8;
+    transform: scale(1.05)
+}

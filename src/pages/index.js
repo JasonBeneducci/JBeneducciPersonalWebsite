@@ -40,10 +40,9 @@ class IndexPage extends React.Component {
   }
 
   handleOpenArticle(article) {
-
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
-      article
+      article: article
     })
 
     setTimeout(() => {
@@ -57,11 +56,9 @@ class IndexPage extends React.Component {
         articleTimeout: !this.state.articleTimeout
       })
     }, 350)
-
   }
 
   handleCloseArticle() {
-
     this.setState({
       articleTimeout: !this.state.articleTimeout
     })
@@ -78,7 +75,6 @@ class IndexPage extends React.Component {
         article: ''
       })
     }, 350)
-
   }
 
   handleClickOutside(event) {
@@ -101,6 +97,7 @@ class IndexPage extends React.Component {
               articleTimeout={this.state.articleTimeout}
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
+              onOpenArticle={this.handleOpenArticle}
               setWrapperRef={this.setWrapperRef}
             />
             <Footer timeout={this.state.timeout} />

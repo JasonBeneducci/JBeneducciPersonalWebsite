@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import bali from '../images/bali.jpg'
+import cornell from '../images/cornell.png'
+import prosight from '../images/prosight.png'
+import giants from '../images/giants.png'
+import nz from '../images/new-zealand.jpg'
 import pic03 from '../images/pic03.jpg'
+import '../assets/css/custom.css'
 
 class Main extends React.Component {
   render() {
@@ -28,29 +32,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="route-title">Introduction</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={bali} alt="Taken in Bali on a sunrise hike" />
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          <p className="paragraph">My name is Jason Beneducci and I am a Software Engineer interested in continuing to push the bounds of possibility. 
+            In May of 2019, I graduated from the University of Michigan in Ann Arbor where I studied Economics and Entrepreneurship. While applying to jobs, I found it impossible to fine excitement from the type of roles I was applying to. As a result, I made the decision to pursue something I was much more deeply interested in.
+            I enrolled in Flatiron School to get an education in Software Engineering and have never looked back.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          <p className="paragraph">
+            When I am not spending time exploring a new language or working on personal projects, I am probably playing golf, scuba diving, or watching a football game.
           </p>
           {close}
         </article>
@@ -62,24 +53,37 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <h2 className="route-title">Work</h2>
+          <div className="images-container">
+            <img src={giants} onClick={() => this.props.onOpenArticle('nyg')} className="work-logo" alt="" />
+            <img src={cornell} onClick={() => this.props.onOpenArticle('cornell')} className="work-logo" alt="" />
+            <img src={prosight} onClick={() => this.props.onOpenArticle('prosight')} className="work-logo" alt="" />
+          </div>
+          {/* <p>
+            New York Giants .
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Cornell Paragraph goes here.
+          </p>
+          <p>
+            ProSight Paragraph goes here.
+          </p> */}
+          {close}
+        </article>
+
+        <article
+          id="nyg"
+          className={`${this.props.article === 'nyg' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+            }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="route-title">New York Giants</h2>
+          <div className="images-container">
+            <img src={giants} className="work-logo" alt="" />
+          </div>
+          <p>
+            New York Giants.
           </p>
           {close}
         </article>
@@ -93,16 +97,10 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={nz} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Paragraph regarding about goes here.
           </p>
           {close}
         </article>
@@ -140,25 +138,20 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://medium.com/@jasonbeneducci"
+                className="icon fa-medium"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/jason.beneducci" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/JasonBeneducci"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

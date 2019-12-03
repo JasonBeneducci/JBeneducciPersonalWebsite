@@ -11,6 +11,7 @@
     color: yellow;
     text-align: center;
     font-size: 2rem;
+    font-weight: bolder;
 }
 
 .listed-route {
@@ -76,4 +77,8 @@
 
 .contact-title {
     color: yellow;
+}
+
+.spacer {
+    margin-right: 5%;
 }

@@ -80,14 +80,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="route-title">Projects</h2>
-          {/* <span className="image main">
-            <img src={nz} alt="" />
-          </span> */}
           <div className="paragraph-title">PayDirt Picks
             <a href="https://github.com/JasonBeneducci/PaydirtPicks" className="icon fa-github"> </a>
-          </div>
-          <div className="centered-text">
-            <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a>
+            <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s" className="icon fa-youtube"> </a>
           </div>
           <div className="centered-text">
             NFL Pick'em Application that allows users to compete for cash prizes by picking a weekly slate of NFL games.
@@ -103,9 +98,7 @@ class Main extends React.Component {
 
           <div className="paragraph-title">Hangman Game
             <a href="https://github.com/JasonBeneducci/Hangman-game" className="icon fa-github"> </a>
-          </div>
-          <div className="centered-text">
-            {/* <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a> */}
+            <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s" className="icon fa-youtube"> </a>
           </div>
           <div className="centered-text">
             Hangman Game that enables users to keep their brain sharp in a few different categories of phrases
@@ -120,9 +113,7 @@ class Main extends React.Component {
 
           <div className="paragraph-title">Refrigernation
             <a href="https://github.com/JasonBeneducci/Refrigernation" className="icon fa-github"> </a>
-          </div>
-          <div className="centered-text">
-            {/* <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s">Video Demo</a> */}
+            <a href="https://youtu.be/EbYYpQ0_W-w" className="icon fa-youtube"> </a>
           </div>
           <div className="centered-text">
             Virtual Refrigerator Application that allows users to spend less time worrying about the contents of their refrigerator and more time doing the things they enjoy most
@@ -134,9 +125,6 @@ class Main extends React.Component {
             <li>ActiveRecord</li>
             <li>SQL</li>
           </ul>
-
-
-
           {close}
         </article>
 

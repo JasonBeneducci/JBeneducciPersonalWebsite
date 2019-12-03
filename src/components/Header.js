@@ -17,10 +17,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('intro')}}>Intro</button></li>
-                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('work')}}>Work</button></li>
-                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('about')}}>Projects</button></li>
-                <li className="listed-route"><button className="route-button" onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
+                <li><button className="route-button" onClick={() => {props.onOpenArticle('intro')}}>Intro</button></li>
+                <li><button className="route-button" onClick={() => {props.onOpenArticle('work')}}>Work</button></li>
+                <li><button className="route-button" onClick={() => {props.onOpenArticle('about')}}>Projects</button></li>
+                <li><button className="route-button" onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
             </ul>
         </nav>
     </header>

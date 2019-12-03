@@ -37,7 +37,7 @@ class Main extends React.Component {
           <center><p className="paragraph">My name is Jason Beneducci and I am a Software Engineer interested in contributing to forward thinking projects that push the bounds of possibility.</p></center>
           <center><p className="paragraph">In May of 2019, I graduated from the University of Michigan in Ann Arbor where I studied Economics and Entrepreneurship. 
           While applying to jobs, I found it impossible to fine excitement from the type of roles I was applying to as I have always been obseesed with finding a way contribute pushing the world forward.
-          Recognizing, coding was something I was both fascinated with and enabled me to fulfill my desire to contribute to forward progress, I chose to enroll in Flatiron School</p></center>
+          Recognizing, coding was something I was both fascinated with and enabled me to fulfill my desire to contribute to forward progress, I chose to enroll in Flatiron School.</p></center>
           <center><p className="paragraph">
             When I am not spending time exploring a new language or working on personal projects, I am probably playing golf, watching a football game or on a scuba diving trip. I am a passionate Michigan Wolverines Fan and love to compete in any sense of the word. 
           </p></center>
@@ -143,7 +143,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="route-title">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>

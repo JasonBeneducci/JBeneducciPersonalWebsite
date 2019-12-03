@@ -1,18 +1,9 @@
 .route-title {
     text-align: center;
     color: yellow;
-    font-size: 3rem;
+    font-size: 1.5rem;
     background-color: gray;
     border-radius: 10px;
-}
-
-.route-title:hover {
-    text-align: center;
-    border-style: solid;
-    border-color: yellow;
-    background-color: yellow;
-    font-weight: bolder;
-    color: black;
 }
 
 
@@ -20,6 +11,16 @@
     color: yellow;
     text-align: center;
     font-size: 2rem;
+}
+
+.listed-route {
+    background-color:black;
+    color: white;
+}
+
+.listed-route:hover {
+    background-color: yellow;
+    color: black;
 }
 
 .paragraph {
@@ -34,7 +35,18 @@
     text-align: center;
     border-style: solid;
     border-color: yellow;
+    color: white;
     font-weight: bolder;
+    width: 8rem;
+}
+
+.route-button:hover {
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+    color:red;
+    font-weight: bolder;
+    width: 8rem;
 }
 
 .personal-slogan {
@@ -60,4 +72,8 @@
 .work-logo:hover {
     opacity: 0.8;
     transform: scale(1.05)
+}
+
+.contact-title {
+    color: yellow;
 }

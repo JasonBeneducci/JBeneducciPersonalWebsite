@@ -36,10 +36,13 @@ class Main extends React.Component {
           </span>
           <center><p className="paragraph">My name is Jason Beneducci and I am a Software Engineer interested in contributing to forward thinking projects that push the bounds of possibility.</p></center>
           <center><p className="paragraph">In May of 2019, I graduated from the University of Michigan in Ann Arbor where I studied Economics and Entrepreneurship. 
-          While applying to jobs, I found it impossible to fine excitement from the type of roles I was applying to as I have always been obseesed with finding a way contribute pushing the world forward.
-          Recognizing, coding was something I was both fascinated with and enabled me to fulfill my desire to contribute to forward progress, I chose to enroll in Flatiron School.</p></center>
+          While applying to jobs, I found it impossible to find excitement in the type of roles I was applying to, so I decided to make a change. I have always been obseesed with finding a way to contribute to the forward progress of our world.
+          After independently learning Ruby, I fell in love with the unique, fulfilling challenges that coding provides and I chose to enroll in Flatiron School. 
+          At Flatiron I developed my skills in Ruby, Ruby on Rails, Javascript, React-Redux, CSS, HTML, API Integration and how to add value to a team in a tech setting.
+          </p></center>
           <center><p className="paragraph">
-            When I am not spending time exploring a new language or working on personal projects, I am probably playing golf, watching a football game or on a scuba diving trip. I am a passionate Michigan Wolverines Fan and love to compete in any sense of the word. 
+            I enjoy playing various sports including Hockey, Soccer, Basketball, Golf. Usually, once a year I take a scuba diving trip to just explore the underwater world that humans rarely get to see. To data, I have been on both night and day dives, of depths ranging from 0 feet to 180 feet, in eight different countries and have had the priviledge to dive the Great 
+            Barrier Reef. When I am not coding, playing a sport or scuba diving, I am a proud Michigan Wolverines athletics fan, which means I am either elated or devastated, nothing in between. 
           </p></center>
           {close}
         </article>

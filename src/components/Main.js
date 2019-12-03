@@ -41,8 +41,9 @@ class Main extends React.Component {
           At Flatiron I developed my skills in Ruby, Ruby on Rails, Javascript, React-Redux, CSS, HTML, API Integration and how to add value to a team in a tech setting.
           </p></center>
           <center><p className="paragraph">
-            I enjoy playing various sports including Hockey, Soccer, Basketball, Golf. Usually, once a year I take a scuba diving trip to just explore the underwater world that humans rarely get to see. To data, I have been on both night and day dives, of depths ranging from 0 feet to 180 feet, in eight different countries and have had the priviledge to dive the Great 
-            Barrier Reef. When I am not coding, playing a sport or scuba diving, I am a proud Michigan Wolverines athletics fan, which means I am either elated or devastated, nothing in between. 
+            I enjoy playing various sports including Hockey, Soccer, Basketball, Golf. Usually, once a year I take a scuba diving trip to just explore the underwater world that humans rarely get to see. 
+            To date, I have been on both day and night dives, of depths ranging from 0 feet to 180 feet, in eight different countries and have had the priviledge to dive the Great Barrier Reef. 
+            When I am not coding, playing a sport or scuba diving, I am a proud Michigan Wolverines athletics fan, which means I am either elated or devastated, never in between. 
           </p></center>
           {close}
         </article>

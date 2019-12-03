@@ -47,7 +47,9 @@
 
 			@media screen and (max-width: 600px) {
     			:first-child {
-					height: 2vh;
+					margin-top: 0;
+					height: 9rem;
+					border-radius: 5px;
     			}
 	
 			&:before {

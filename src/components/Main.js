@@ -98,7 +98,7 @@ class Main extends React.Component {
 
           <div className="paragraph-title">Hangman Game
             <a href="https://github.com/JasonBeneducci/Hangman-game" className="icon fa-github"> </a>
-            <a href="https://www.youtube.com/watch?v=VFnowHg99tk&t=79s" className="icon fa-youtube"> </a>
+            <a href="https://youtu.be/Eg-NDxGsooA" className="icon fa-youtube"> </a>
           </div>
           <div className="centered-text">
             Hangman Game that enables users to keep their brain sharp in a few different categories of phrases

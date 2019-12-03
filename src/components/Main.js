@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import bali from '../images/bali.jpg'
+import Bali from '../images/Bali.jpg'
 import cornell from '../images/cornell.png'
 import prosight from '../images/prosight.png'
 import giants from '../images/giants.png'
-import nz from '../images/new-zealand.jpg'
 import '../assets/css/custom.css'
 
 class Main extends React.Component {
@@ -33,7 +32,7 @@ class Main extends React.Component {
         >
           <h2 className="route-title">Introduction</h2>
           <span className="image main">
-            <img src={bali} alt="Taken in Bali on a sunrise hike" />
+            <img src={Bali} alt="Taken in Bali on a sunrise hike" />
           </span>
           <center><p className="paragraph">My name is Jason Beneducci and I am a Software Engineer interested in contributing to forward thinking projects that push the bounds of possibility.</p></center>
           <center><p className="paragraph">In May of 2019, I graduated from the University of Michigan in Ann Arbor where I studied Economics and Entrepreneurship. 

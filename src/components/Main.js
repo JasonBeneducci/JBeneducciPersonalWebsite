@@ -4,6 +4,7 @@ import Bali from './Bali.jpg'
 import cornell from './cornell.png'
 import prosight from './prosight.png'
 import giants from './giants.png'
+import flatiron from './flatiron.png'
 import '../assets/css/custom.css'
 
 class Main extends React.Component {
@@ -135,8 +136,36 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="route-title">Contact</h2>
-          <form method="post" action="#">
+          <h2 className="route-title">Training</h2>
+            <img src={flatiron} className="flatiron-logo" alt=""></img>
+            <p className="centered-text">I received my formal training in Software Engineering from Flatiron School in New York City. 
+              At Flatiron, I completed a rigorous 15 week curriculum that is broken up into 5 modules:</p>
+            <p className="paragraph">//MOD1 ------ Ruby</p>
+            <p className="paragraph">//MOD2 ------ Ruby on Rails Framework</p>
+            <p className="paragraph">//MOD3 ------Javascript</p>
+            <p className="paragraph">//MOD4 ------ ReactJS and Redux Framework</p>
+            <p className="paragraph">//MOD5 ------ Personal Capstone Project</p>
+          {close}
+        </article>
+      </div>
+    )
+  }
+}
+
+Main.propTypes = {
+  route: PropTypes.object,
+  article: PropTypes.string,
+  articleTimeout: PropTypes.bool,
+  onCloseArticle: PropTypes.func,
+  timeout: PropTypes.bool,
+  setWrapperRef: PropTypes.func.isRequired,
+}
+
+export default Main
+
+
+// CODE FOR WRITING THE CONTACT PAGE IF NEEDED
+{/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -180,21 +209,4 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-          </ul>
-          {close}
-        </article>
-      </div>
-    )
-  }
-}
-
-Main.propTypes = {
-  route: PropTypes.object,
-  article: PropTypes.string,
-  articleTimeout: PropTypes.bool,
-  onCloseArticle: PropTypes.func,
-  timeout: PropTypes.bool,
-  setWrapperRef: PropTypes.func.isRequired,
-}
-
-export default Main
+          </ul> */}

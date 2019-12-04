@@ -67,7 +67,7 @@ class Main extends React.Component {
               <div className="paragraph">+ Contributed a creative idea to penetrate new customer segment (college students)</div>
               <div className="paragraph">+ Streamlined two years of transactions records from Excel into a more efficient means of tracking finances</div>
           <center><img src={prosight} className="work-logo" alt="" /></center>
-            <div className="paragraph-title">(2016) - Rotational Intern at ProSight Specialty</div>
+            <div className="paragraph-title">(2016) - Rotational Intern at ProSight Specialty Insurance</div>
               <div className="paragraph">+ Provided real-time analyst insight regarding potential transactions coming through on the Lloyd’s of London trading floor</div>
               <div className="paragraph">+ Headed finance project to reconcile profit commissions using an excel data sorting method which helped save the company more than a million dollars.</div>
           {close}
